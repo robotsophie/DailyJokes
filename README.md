@@ -89,19 +89,3 @@ frontend/
   package.json                        Frontend scripts and dependencies
 startapp.sh                           One-command Linux launcher
 ```
-
-## Share on GitHub
-
-The included `.gitignore` excludes generated dependencies, logs, local vote data, and generated cache snapshots. It keeps the code, supplied input data, image, and setup files ready to share.
-
-```bash
-git init
-git add .
-git commit -m "Initial Laugh Loop app"
-git branch -M main
-git remote add origin <your-github-repository-url>
-git push -u origin main
-```
-
-Before publishing, review the supplied joke datasets to ensure their content and licensing are appropriate for your intended audience.
-# DailyJokes
