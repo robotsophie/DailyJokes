@@ -1,0 +1,17 @@
+# Python runtime
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# JavaScript runtime and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local state and logs
+backend/data/votes.json
+backend/outputs/
+logs/
+
+# Local configuration and operating-system files
+.env
+.DS_Store
